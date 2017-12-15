@@ -17,6 +17,7 @@ export default {
   },
 
   asyncData ({ store }) {
+    console.log('这是个啥！')
     return store.dispatch(`getTopics`)
   }
 }
